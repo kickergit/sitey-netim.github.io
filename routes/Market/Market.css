@@ -1,0 +1,147 @@
+.card_market {
+  border-radius: 50%;
+  width: 7rem;
+  height: 7rem;
+  border: 4px solid #3b4cb8;
+  /*overflow: hidden;*/
+}
+
+.card_img {
+  width: 7rem;
+  height: 7rem;
+}
+
+.market_col {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card_img {
+  border-radius: 50% !important;
+}
+
+.card_category_name {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.market_col > div:nth-child(1) > div:nth-child(2) {
+  /* display: flex;
+  margin-top: 10px;
+  justify-content: center; */
+}
+
+/* ÜRÜNLER İÇİN CSS BAŞLANGIÇ*/
+
+.market_product_col {
+  margin-top: 2rem;
+}
+.card_product_img {
+  /* max-width: 256px !important; */
+  max-height: 256px !important;
+}
+
+.card_market_product {
+  /* width: 256px; */
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.card_product_img {
+  border-radius: 20px;
+}
+.market_buy_button {
+  color: #3b4cb8;
+  border-radius: 10px;
+  flex-direction: column;
+  display: flex;
+
+  float: right;
+}
+
+.market_buy_button:hover {
+  color: white;
+  background-color: #3b4cb8;
+}
+
+.ant-card-meta-title {
+  display: flex;
+  /* color: #3b4cb8; */
+}
+
+.container_title {
+  display: flex;
+  justify-content: space-between;
+}
+.container_title > h1 {
+  margin-bottom: 0;
+}
+.ant-badge {
+  margin: auto 10px;
+}
+.ant-badge > span > svg {
+  width: 40px;
+  height: 40px;
+}
+.container_hr {
+  margin-bottom: 20px;
+}
+
+.Market_drawer_sepet {
+  text-align: center;
+}
+
+.market_badge {
+  cursor: pointer;
+  margin-right: 2rem;
+}
+
+.Market_title {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.ant-drawer-content-wrapper {
+  width: 350px !important;
+}
+
+.marketdrawer_count {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.marketdrawer_p {
+  margin: auto 0px;
+}
+
+.market_badge_shoppinglist {
+  display: flex;
+  justify-content: space-between;
+}
+
+.shoppinglist_row {
+  justify-content: center;
+  overflow-x: auto;
+}
+
+.market_container .ant-row {
+  justify-content: center;
+}
+
+.marketdrawer_button {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.market_hr{
+  margin-top: 9%;
+}
+.market_fiyat{
+  font-size: 18px;
+}

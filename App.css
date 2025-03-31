@@ -1,0 +1,13 @@
+#layout__root {
+  /* height: 100%;*/
+  width: 100%;
+}
+
+.ant-layout {
+  background: #eeeeee;
+}
+
+.ant-layout-content {
+  margin: 0 !important;
+  min-height: 100vh !important;
+}

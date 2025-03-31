@@ -1,0 +1,252 @@
+.card_row > div {
+  display: grid;
+}
+
+.card {
+  box-shadow: 0px 12px 23px 0px rgba(182, 85, 228, 0.04);
+  border-radius: 15px;
+}
+
+.cardOne {
+  background: #77abf6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #accdfd,
+    #bfccff,
+    #d2cbfe,
+    #e4cafa,
+    #f4c9f4
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #accdfd,
+    #bfccff,
+    #d2cbfe,
+    #e4cafa,
+    #f4c9f4
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+/* background-image: linear-gradient(to bottom, #accdfd, #bfccff, #d2cbfe, #e4cafa, #f4c9f4); */
+.cardTwo {
+  background: #f28686; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #f6a6a6,
+    #feb8a1,
+    #ffcba2,
+    #fbe0aa,
+    #f4f4ba
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #f6a6a6,
+    #feb8a1,
+    #ffcba2,
+    #fbe0aa,
+    #f4f4ba
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.cardThree {
+  background: #8fcd48; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #a0f63e,
+    #bff55e,
+    #d7f47c,
+    #e8f39b,
+    #f4f4ba
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #a0f63e,
+    #bff55e,
+    #d7f47c,
+    #e8f39b,
+    #f4f4ba
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.cardFour {
+  background: #67c2b6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #7effee,
+    #94f6ff,
+    #baebff,
+    #d7e2f4,
+    #dedede
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #7effee,
+    #94f6ff,
+    #baebff,
+    #d7e2f4,
+    #dedede
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.card_head_row {
+  display: flex;
+  justify-content: space-between;
+}
+.card_head_col {
+  display: flex;
+  min-width: 152px;
+}
+
+.card_head {
+  min-width: 90px;
+}
+
+.card_icon > svg {
+  height: 40px;
+  width: 40px;
+  padding: 5px;
+  color: white;
+  border-radius: 7px;
+}
+
+.icon_1 > svg {
+  background-color: #77abf6;
+}
+.icon_2 > svg {
+  background-color: #f28686;
+}
+.icon_3 > svg {
+  background-color: #8fcd48;
+}
+.icon_4 > svg {
+  background-color: #67c2b6;
+}
+
+.card_title {
+  font-weight: bold;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #3b4cb8;
+}
+
+.card_price {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #3b4cb8;
+}
+
+.card_body {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  color: #3b4cb8;
+}
+
+.card_col {
+  margin-bottom: 24px;
+}
+
+.announcement_title {
+  color: "#3b4cb8";
+}
+
+.announcement_list_item {
+  cursor: pointer;
+}
+
+.announcement_list_item:hover {
+  background-color: #fafafa;
+}
+
+.announcement_list_item_meta > div > svg {
+  height: 30px;
+  width: 30px;
+}
+
+.announcement_list_item_meta > div {
+  margin: auto 16px auto auto;
+}
+
+.announcement_list_item_meta > div {
+  margin: auto 16px auto auto;
+}
+
+.today_weather {
+  border-bottom: 1px solid #f0f0f0;
+}
+.today_weather > p,
+h3,
+h5 {
+  margin: 0;
+}
+
+.today_weather_max_min {
+  margin: 0px 10px;
+}
+
+.threeDays_weather {
+  display: flex;
+}
+.threeDays_weather > h3,
+h4,
+p {
+  margin: 0;
+}
+
+.threeDays_date,
+.threeDays_temp {
+  margin: auto;
+}
+
+.dashboard_col {
+  display: grid;
+  margin-bottom: 16px;
+}
+
+.card_percantage > span {
+  text-align: center;
+}
+
+@media screen and (min-width: 991px) and (max-width: 1529px) {
+  .card_head {
+    width: 100%;
+    text-align: center;
+  }
+  .card_percantage {
+    text-align: center;
+  }
+
+  .card_average > span {
+    min-width: 169px;
+  }
+  .card_head_row {
+    display: flex;
+    justify-content: center;
+  }
+  .card_head_col {
+    text-align: center;
+    justify-content: center;
+  }
+  .headCard > div:first-child {
+    padding: 16px;
+  }
+}
+
+@media screen and (max-width: 664px) {
+  .card_head {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1599px) {
+  .today_weather {
+    border-bottom: none;
+    border-right: 1px solid #f0f0f0;
+  }
+}
